@@ -28,7 +28,7 @@ shortenBtn.onclick = () => {
         blurEffect.style.display = "block";
         popupBox.classList.add("show");
 
-        let domain = "localhost/url-shortener/";
+        let domain = "https://curt-ly.herokuapp.com/";
         shortenUrl.value = domain + data;
 
         copyBtn.onclick = () => {
